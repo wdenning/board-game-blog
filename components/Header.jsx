@@ -7,11 +7,11 @@ function Header() {
         WILL.DNG
       </a>
       <ul className={styles.navContainer}>
-        <li className={styles.navItem} href="/about">
-          About
+        <li className={styles.navItem}>
+          <a href="/about">About </a>
         </li>
-        <li className={styles.navItem} href="https://github.com/wdenning">
-          Github
+        <li className={styles.navItem}>
+          <a href="https://github.com/wdenning">Github </a>
         </li>
       </ul>
     </header>
