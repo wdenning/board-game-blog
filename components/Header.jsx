@@ -8,10 +8,10 @@ function Header() {
       </a>
       <ul className={styles.navContainer}>
         <li className={styles.navItem}>
-          <a href="/about">About </a>
+          <a href="/about">About</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://github.com/wdenning">Github </a>
+          <a href="https://github.com/wdenning">Github</a>
         </li>
       </ul>
     </header>
