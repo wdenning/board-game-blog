@@ -2,13 +2,25 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inconsolata';
+  background-color: var(--background-color);
+}
+
+:root {
+  /* COLORS */
+  --background-color: #f1efed;
+  --accent-color: #5e68cf;
+  --text-color-secondary: #807f7e;
+  --text-color: #000000;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 * {
